@@ -3,7 +3,9 @@ const fs = require('fs');
 const { addMovie, findMovie } = require("./utils/index");
 
 
-//step 1: write app to create .txt. file to show local storage. Explain that .txt file is useless 
+//step 1: console.log(argv) and add flags to the terminal. Ask about data types of argv.
+// THEN...
+//write app to create .txt. file to show local storage. Explain that .txt file is useless 
 // const app = () => {
 //     if (process.argv[2] === 'title' && process.argv[4] === 'actor') {
 //         fs.writeFileSync('storage.txt', `title: ${process.argv[3]}, actor: ${process.argv[5]}`);
